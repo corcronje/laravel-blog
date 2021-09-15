@@ -1,3 +1,5 @@
-@props(['disabled' => false])
+@props(['title' => false])
 
-<input {{ $disabled ? 'disabled' : '' }} {!! $attributes->merge(['class' => 'rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50']) !!}>
+<div class="form-group">
+    <label for="">{{ $title }}</label>
+</div>
