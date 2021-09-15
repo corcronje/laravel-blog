@@ -20,10 +20,12 @@
 
 <body>
     @include('layouts.navigation')
-    <!-- Page Content -->
-    <main class="mt-4">
-        {{ $slot }}
-    </main>
+    <div class="container">
+        <!-- Page Content -->
+        <main class="mt-4">
+            {{ $slot }}
+        </main>
+    </div>
 </body>
 
 </html>

@@ -19,10 +19,12 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
 
 <body>
-    <!-- Page Content -->
-    <main class="py-4">
-        {{ $slot }}
-    </main>
+    <div class="container">
+        <!-- Page Content -->
+        <main class="py-4">
+            {{ $slot }}
+        </main>
+    </div>
 </body>
 
 </html>
